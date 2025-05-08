@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="a signup page">
+	<title>Sign Up Page</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<main class="signUp-page">
+		<section class="signUp-intro">
+			<header class="logo">
+				<img src="C:\Users\SD\Downloads\Hope Signup Page\Sign-Up-Page-main\media\Logo.png" alt="company logo">
+			</header>
+			<h1>For Individuals</h1>
+			<p class="large-viewport-text">Start benefitting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+			<p class="small-viewport-text">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+
+		</section>
+
+		<section class="signUp-form">
+			<form action="#" method="post">
+				<div class="name-wrapper">
+					<label for="first-name" class="firstname left-column"><span>First Name</span>
+						<input id="first-name" type="text" name="firstname" placeholder="" required>
+					</label>
+
+					<label for="last-name" class="lastname right-column"><span>Last Name</span>
+						<input id="last-name" type="text" name="lastname" placeholder="" required>
+					</label>
+				</div>
+
+				<div class="gender-dob-wrapper">
+					<label for="gender-dropdown" class="gender left-column"><span>Gender</span>
+						<select id="gender-dropdown" required>
+							<option value="">Select here</option>
+							<option value="female">Female</option>
+							<option value="male">Male</option>
+							<option value="prefer-not-to-say">Prefer not to say</option>
+						</select>
+					</label>
+
+					<label for="date-of-birth" class="dob right-column"><span>Date of Birth</span>
+						<input id="date-of-birth" type="date" name="DOB" placeholder="Select here" required>
+					</label>
+				</div>
+
+				<div class="weight-height-wrapper">
+					<label for="weight-kg" class="weight left-column"><span>Weight (KG)</span>
+						<input id="weight-kg" type="text" name="weight" placeholder="Enter Weight" required>
+					</label>
+
+					<label for="height-cm" class="height right-column"><span>Height (CM)</span>
+						<input id="height-cm" type="text" name="height" placeholder="Enter height here..." required>
+					</label>
+				</div>
+
+				<div class="activity-wrapper">
+					<label for="activity-level" class="activity spread-across"><span>Activity Level</span>
+						<select id="activity-level" type="text" name="activity" placeholder="Select here" required>
+							<option value="">Select here</option>
+							<option value="Never-active">Never active</option>
+							<option value="Rarely-active">Rarely active</option>
+							<option value="Ocassionally-active">Ocassionally active</option>
+							<option value="Frequently-active">Frequently active</option>
+						</select>
+					</label>
+				</div>
+
+				<div class="password-wrapper">
+					<label for="signUp-password" class="password spread-across"><span>Password</span>
+						<input id="signUp-password" type="password" name="password" pattern="[a-z0-5]{8,}" required>
+					</label>
+				</div>
+
+				<button id="submit-button" type="submit" class="submit spread-across">Register</button>
+
+
+				<p class="tos spread-across">By clicking Register, you agree to our <a href="https://www.example.com">Terms of Use</a> and our <a href="https://www.example.com">Privacy Policy</a></p>
+				
+			</form>
+		</section>
+		<footer>
+			<p>By clicking Register, you agree to our <a href="https://www.example.com">Terms of Use</a> and our <a href="https://www.example.com">Privacy Policy</p>
+		</footer>
+		
+	</main>
+	
+</body>
+</html>
